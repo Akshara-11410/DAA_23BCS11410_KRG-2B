@@ -1,1 +1,3 @@
 # DAA_23BCS11410_KRG-2B
+
+10 practicals (DAA PRACTICALS)
