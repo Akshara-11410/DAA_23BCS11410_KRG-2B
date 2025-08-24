@@ -12,13 +12,17 @@ int main() {
         cin>>arr[i];
         freq[arr[i]]++;
     }
-    cout<< "Element"<<" : "<<" Frequency "<<endl;
-    for(auto c: freq){
-        cout<<c.first<<" : "<<c.second<<endl;
+     vector<vector<int>> res;
+        for (auto &x : freq) {
+            res.push_back({x.first, x.second});
+        }
+
+    for (auto &pair : res) {
+        cout << "[" << pair[0] << ", " << pair[1] << "] ";
     }
-    
     
 
 
     return 0;
 }
+
