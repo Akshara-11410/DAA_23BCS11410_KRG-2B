@@ -25,5 +25,4 @@ To design and analyze efficient algorithms for finding the maximum contiguous su
 
 ---
 
-### ✨ Author: *Akshara Chauhan*
 
